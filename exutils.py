@@ -38,5 +38,6 @@ elif 8.24 >= VER <= 8.29:
     VER = 8.24
 elif VER >= 8.30:
     print("NO NEED TO PATCH! so no need to use me :)")
+    sys.exit(0)
 SCRIPT = SCRIPT.replace("SPEC", str(VER))
 os.system(SCRIPT)
